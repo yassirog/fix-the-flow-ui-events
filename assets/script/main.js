@@ -18,7 +18,7 @@ function changeColor() {
 //NR 2 click
 let design = document.querySelector('a:nth-of-type(2)');
 
-design.addEventListener('click', function() {
+design.addEventListener('mousemove', function() {
   console.log("clicked");
   alert('Je hebt op Design geklikt!');
 });
