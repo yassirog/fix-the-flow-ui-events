@@ -37,6 +37,18 @@ a:hover {
   border-color: var(--primary);
 }
 
+.changeColor {
+  display: inline-block;
+  margin: 0.2em;
+  padding: 0.4em 0.8em;
+  background: violet;
+  color: var(--highlight-primary);
+  border: var(--line) solid var(--highlight-primary);
+  border-radius: var(--pill);
+  font-weight: normal;
+  text-decoration: none;
+}
+
 /* UI Event Classes */
 
 /* Jump animation on the interaction link */
